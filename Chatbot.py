@@ -21,5 +21,5 @@ else:
                            " entre em contato com a Patricia")
              
         else:
-            print("")
-    
+            print("Estou te colocando para "
+                         "  entrar em contato com a Patricia")
