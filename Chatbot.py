@@ -41,3 +41,15 @@ if idade_atual==True:
         else:
             print("Estou te colocando para "
                      " entrar em contato com a Patricia")
+    if tipo_At==3:
+        nome_conj=input("Digite o nome do seu Conjuge")
+        print("Estou te colocando para entrar em contato com a Patricia pois" 
+              "o atendimento será somente virtual")
+    if tipo_At==4:
+        Num_pessoas=int(input("digite o numero de pessoas que"
+                              "vão participar dessa terapia em grupo"))
+        print("Estou te colocando para entrar em contato com a Patricia pois" 
+              "o atendimento será somente virtual")
+    if tipo_At==5:
+         print("Estou te colocando para entrar em contato com a Patricia pois" 
+              "o atendimento será somente virtual")
