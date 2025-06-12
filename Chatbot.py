@@ -34,18 +34,8 @@ if tipo_pess==1:
             print("Assim que possível a psicóloga Patrícia Marques entrará em contato com você"
                  "para realizar o agendamento. Sua equipe desde já agradece a preferência!")
         if tipo_At==3:
-            presensa1=(int(input("o atendimento sera presincial ou não:"
-                                "digite 1 para prencial e 2 para virtual")))
-            if presensa1==1:
-                ambiante=(int(input("Voce poossui auditorio?: digite "
-                                    "1 para sim e 2 para não")))
-                if ambiante==1:
-                    print("Estou te colocando para "
-                        " entrar em contato com a Patricia")
-                else:
-                    print("Tente arrumar um local e" 
-                        " entre em contato com a Patricia")
-            else:
-                print("Estou te colocando para "
-                        " entrar em contato com a Patricia")
-        
+           atendi=int(input("Como você gostaria de organizar o atendimento?"
+                            "digite 1 para uma sessão específica, 2 para Acompanhamento semanal"
+                            "e 3 para Acompanhamento mensal"))
+           print("Assim que possível a psicóloga Patrícia Marques entrará em contato com você"
+                 "para realizar o agendamento. Sua equipe desde já agradece a preferência!")
