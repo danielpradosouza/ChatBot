@@ -72,3 +72,4 @@ if tipo_pess==2:
        quant_pess_emp=int(input("Para quantas pessoas será a apresentação? "))
        print("Assim que possível a psicóloga Patrícia Marques entrará em contato com você "
                  "para realizar o agendamento. Sua equipe desde já agradece a preferência!") 
+ 
